@@ -8,15 +8,17 @@ function Header() {
     return (
         <div className="header">
             <div className="logo">
-                PORTFOLIO
+               MY PORTFOLIO
             </div>
             <div className="menu">
                 <div className="web-menu">
                     <Web/>
                 </div>
                 <div className="mob-menu">
-                <i class="fi-rr-apps"></i>
-                    <Mobile/>
+                    <div onClick={()=>setIsOpen(!isOpen)}>
+                        <i className="fi-rr-apps menu-icon"></i>
+                    </div>
+                    {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen}/>}
                 </div>
             </div>
         </div>
