@@ -6,7 +6,7 @@ export const ProjectData = [
         tags:["reactjs","javascript","html","css"],
         demo:"www.loki.com",
         github:"www.github.io",
-        image: require('../../assets/icon/facebook.png').default
+        image: require('../../assets/image/website.jpg').default
     },
     {
         id:2,
@@ -15,6 +15,6 @@ export const ProjectData = [
         tags:["reactjs","javascript","html","css"],
         demo:"www.loki.com",
         github:"www.github.io",
-        image: require('../../assets/icon/facebook.png').default
+        image: require('../../assets/image/website.jpg').default
     }
 ]
