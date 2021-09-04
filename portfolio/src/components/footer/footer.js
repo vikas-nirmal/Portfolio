@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './footer.css'
 function footer() {
     return (
-        <div>
-            this is footer.
+        <div className='footer'>
+            Copyright © 2021 My Portfolio.
         </div>
     )
 }
